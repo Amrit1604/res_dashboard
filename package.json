@@ -2,7 +2,7 @@
   "name": "cal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Amrit1604/res_dashboard.git",
+  "homepage": "https://Amrit1604.github.io/res_dashboard",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
