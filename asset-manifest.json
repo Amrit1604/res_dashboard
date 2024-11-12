@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amrit1604/res_dashboard.git/static/css/main.e6c13ad2.css",
+    "main.js": "/Amrit1604/res_dashboard.git/static/js/main.21f866ca.js",
+    "static/js/453.0de98672.chunk.js": "/Amrit1604/res_dashboard.git/static/js/453.0de98672.chunk.js",
+    "index.html": "/Amrit1604/res_dashboard.git/index.html",
+    "main.e6c13ad2.css.map": "/Amrit1604/res_dashboard.git/static/css/main.e6c13ad2.css.map",
+    "main.21f866ca.js.map": "/Amrit1604/res_dashboard.git/static/js/main.21f866ca.js.map",
+    "453.0de98672.chunk.js.map": "/Amrit1604/res_dashboard.git/static/js/453.0de98672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.21f866ca.js"
+  ]
+}
