@@ -318,12 +318,30 @@ const App = () => {
         ))}
       </Box>
       <TextField
-        label="Type your message"
-        variant="outlined"
-        fullWidth
-        value={newMessage}
-        onChange={(e) => setNewMessage(e.target.value)}
-      />
+  label="Type your message"
+  variant="outlined"
+  fullWidth
+  value={newMessage}
+  onChange={(e) => setNewMessage(e.target.value)}
+  sx={{
+    backgroundColor: 'white',
+    input: {
+      color: 'black',
+    },
+    '& .MuiOutlinedInput-root': {
+      '& fieldset': {
+        borderColor: 'rgba(0, 0, 0, 0.23)', // Optional: Custom border color
+      },
+      '&:hover fieldset': {
+        borderColor: 'black',
+      },
+      '&.Mui-focused fieldset': {
+        borderColor: 'black',
+      },
+    },
+  }}
+/>
+
       <Button variant="contained" color="primary" onClick={handleSendMessage}>
         Send
       </Button>
